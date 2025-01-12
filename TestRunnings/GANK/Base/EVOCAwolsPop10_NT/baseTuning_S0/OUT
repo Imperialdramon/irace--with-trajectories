@@ -1,0 +1,96 @@
+cp inst/nk_2_20.inst .
+outputTuner=EVOCA_AGA_Fnk_2_20_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_2_20.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_2_20_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_2_20_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_2_20_S0
+EVOCA_AGA_Fnk_2_20_S0.out
+cp inst/nk_2_38.inst .
+outputTuner=EVOCA_AGA_Fnk_2_38_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_2_38.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_2_38_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_2_38_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_2_38_S0
+EVOCA_AGA_Fnk_2_38_S0.out
+cp inst/nk_2_52.inst .
+outputTuner=EVOCA_AGA_Fnk_2_52_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_2_52.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_2_52_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_2_52_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_2_52_S0
+EVOCA_AGA_Fnk_2_52_S0.out
+cp inst/nk_3_20.inst .
+outputTuner=EVOCA_AGA_Fnk_3_20_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_3_20.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_3_20_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_3_20_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_3_20_S0
+EVOCA_AGA_Fnk_3_20_S0.out
+cp inst/nk_3_34.inst .
+outputTuner=EVOCA_AGA_Fnk_3_34_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_3_34.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_3_34_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_3_34_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_3_34_S0
+EVOCA_AGA_Fnk_3_34_S0.out
+cp inst/nk_3_48.inst .
+outputTuner=EVOCA_AGA_Fnk_3_48_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_3_48.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_3_48_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_3_48_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_3_48_S0
+EVOCA_AGA_Fnk_3_48_S0.out
+cp inst/nk_4_20.inst .
+outputTuner=EVOCA_AGA_Fnk_4_20_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_4_20.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_4_20_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_4_20_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_4_20_S0
+EVOCA_AGA_Fnk_4_20_S0.out
+cp inst/nk_4_30.inst .
+outputTuner=EVOCA_AGA_Fnk_4_30_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_4_30.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_4_30_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_4_30_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_4_30_S0
+EVOCA_AGA_Fnk_4_30_S0.out
+cp inst/nk_4_40.inst .
+outputTuner=EVOCA_AGA_Fnk_4_40_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_4_40.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_4_40_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_4_40_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_4_40_S0
+EVOCA_AGA_Fnk_4_40_S0.out
+cp inst/nk_5_20.inst .
+outputTuner=EVOCA_AGA_Fnk_5_20_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_5_20.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_5_20_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_5_20_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_5_20_S0
+EVOCA_AGA_Fnk_5_20_S0.out
+cp inst/nk_5_28.inst .
+outputTuner=EVOCA_AGA_Fnk_5_28_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_5_28.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_5_28_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_5_28_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_5_28_S0
+EVOCA_AGA_Fnk_5_28_S0.out
+cp inst/nk_5_38.inst .
+outputTuner=EVOCA_AGA_Fnk_5_38_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_5_38.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_5_38_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_5_38_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_5_38_S0
+EVOCA_AGA_Fnk_5_38_S0.out
+cp inst/nk_6_20.inst .
+outputTuner=EVOCA_AGA_Fnk_6_20_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_6_20.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_6_20_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_6_20_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_6_20_S0
+EVOCA_AGA_Fnk_6_20_S0.out
+cp inst/nk_6_26.inst .
+outputTuner=EVOCA_AGA_Fnk_6_26_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_6_26.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_6_26_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_6_26_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_6_26_S0
+EVOCA_AGA_Fnk_6_26_S0.out
+cp inst/nk_6_32.inst .
+outputTuner=EVOCA_AGA_Fnk_6_32_S0.out
+time ./EVOCA GA.sh ALL.params inst/nk_6_32.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_Fnk_6_32_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_Fnk_6_32_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_Fnk_6_32_S0
+EVOCA_AGA_Fnk_6_32_S0.out
+cp inst/ALL.inst .
+outputTuner=EVOCA_AGA_FALL_S0.out
+time ./EVOCA GA.sh ALL.params inst/ALL.inst 0 10 10 100000 0 1 cf.in> EVOCA_AGA_FALL_S0.out
+mv EVOCA.log respaldosGA/EVOCA.log_GA_FALL_S0
+mv EVOCA.params respaldosGA/EVOCA.params_GA_FALL_S0
+EVOCA_AGA_FALL_S0.out
