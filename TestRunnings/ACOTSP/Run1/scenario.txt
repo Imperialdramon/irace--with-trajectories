@@ -6,7 +6,7 @@
 ## value on the command line).
 
 ## File that contains the description of the parameters.
-parameterFile = "./parameters-acotsp.txt"
+parameterFile = "../Base/parameters-acotsp.txt"
 
 ## Directory where the programs will be run.
 execDir = "./results"
