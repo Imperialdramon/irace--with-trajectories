@@ -13,16 +13,17 @@ execDir = "./acotsp-results"
 
 ## Directory where tuning instances are located, either absolute path or
 ## relative to current directory.
-trainInstancesDir = "./TrainInstances"
+trainInstancesDir = "../TrainInstances"
 
 ## Directory where testing instances are located, either absolute or relative
 ## to current directory.
-testInstancesDir = "./TestInstances"
+testInstancesDir = "../TestInstances"
 
 ## The maximum number of runs (invocations of targetRunner) that will performed. It
 ## determines the (maximum) budget of experiments for the tuning.
 # maxExperiments = 5000
-maxExperiments = 1500
+# maxExperiments = 1500
+maxExperiments = 1000
 
 ## File that contains a set of initial configurations. If empty or NULL,
 ## all initial configurations are randomly generated.

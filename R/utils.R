@@ -661,15 +661,17 @@ irace_save_trajectories <- function(trajectories)
   file_conn <- file(output_file, "w")
   index <- which(names(trajectories) == "eliteResults")
 
-  cat(paste0("(", paste(header[1:index], sep = "", collapse = "  "), 
-            ') (', paste(header[(index + 1):length(header)], sep = "", collapse = "  "), ')\n'), 
+  # Write the header
+  cat(paste0(paste(header[1:index], sep = "", collapse = "  "), 
+            '|', paste(header[(index + 1):length(header)], sep = "", collapse = "  "), '\n'), 
     file = file_conn)
 
+  # Write all the trajectories
   for (i in 1:nrow(trajectories)) {
     eliteData <- as.character(trajectories[i, 1:index ])
     newData <- as.character(trajectories[i, (index + 1):ncol(trajectories)])
-  cat(paste0("(", paste(eliteData, sep = "", collapse = "  "), 
-                ') (', paste(newData, collapse = "  "), ')\n'), 
+  cat(paste0(paste(eliteData, sep = "", collapse = "  "), 
+                '|', paste(newData, collapse = "  "), '\n'),
         file = file_conn)
   }
   close(file_conn)

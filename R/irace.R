@@ -216,9 +216,12 @@ getTrajectories <- function(newConfigurations, eliteConfigurations, experiments,
   newConfigurations <- newConfigurations[, !names(newConfigurations) %in% c(".ALIVE.", ".WEIGHT.", ".RANK.")]
   eliteConfigurations <- eliteConfigurations[, !names(eliteConfigurations) %in% c(".ALIVE.", ".WEIGHT.", ".RANK.")]
 
+  cat("Iteration: ", iteration, "\n")
+  cat("New configurations:\n")
   print(newConfigurations)
+  cat("Elite configurations:\n")
   print(eliteConfigurations)
-  
+
   # for each parent, write the parent parameters, e (for elite), iteration, and then the child parameters, ne for new and iteration
   for (i in seq_along(eliteConfigurations[[".ID."]])) {
     # get elite config
@@ -237,11 +240,12 @@ getTrajectories <- function(newConfigurations, eliteConfigurations, experiments,
       newConfig <- newConfigurations[newConfigurations[[".ID."]] == successors[j],]
       newResults <- newConfig[[".RESULTS."]]
       new <- newConfig[, !names(newConfig) %in% c(".RESULTS.", ".PARENT.")]
-      trajectories <- rbind(trajectories, cbind(elite, statusElite, iteration, eliteResults, new, statusNew, iteration, newResults))
+      trajectories <- rbind(trajectories, cbind(elite, statusElite, iteration - 1, eliteResults, new, statusNew, iteration, newResults))
       rownames(trajectories) <- NULL
     }
   }
-  print(trajectories)
+  # cat("Trajectories:\n")
+  # print(trajectories)
   return(trajectories)
 }
 

@@ -1,0 +1,59 @@
+
+ACO algorithms for the TSP, v1.03
+	 OPTIONS:
+  -t  --time with argument "1.000"
+  -r  --tries with argument "1"
+	Note: maximum number tours is set to default 0
+      --seed with argument "273753338"
+	Note: optimal solution value is set to default 1
+  -i  --tsplibfile with argument "/mnt/c/Users/pablo.estobar/wkspaces/irace-with-trajectories/TestRunnings/ACOTSP/TrainInstances/2000-606.tsp"
+eas_flag is set to 1, run elitist Ant System
+  -l  --localsearch with argument "0"
+  -m  --ants with argument "97"
+	Note: number of nearest neighbours in tour construction is set to default 20
+  -a  --alpha with argument "0.787800"
+  -b  --beta with argument "0.384200"
+  -e  --rho with argument "0.914700"
+	Note: q_0 is set to default 0
+  -m  --ants with argument "262"
+	Note: number of ranks is set to default 0
+	Note: number nearest neighbours in local search is set to default 20
+	Note: dlb flag is set to default 1 (use don't look bits)
+Non-option arguments:
+
+reading tsp-file /mnt/c/Users/pablo.estobar/wkspaces/irace-with-trajectories/TestRunnings/ACOTSP/TrainInstances/2000-606.tsp ... 
+
+calculating distance matrix ..
+
+ .. done
+
+Parameter-settings: 
+
+max_tries		 1
+max_tours		 0
+max_time		 1.00
+seed		 273753338
+optimum			 1
+n_ants			 97
+nn_ants			 20
+alpha			 0.79
+beta			 0.38
+rho			 0.91
+q_0			 0.00
+elitist_ants		 262
+ras_ranks		 0
+ls_flag			 0
+nn_ls			 20
+dlb_flag		 1
+as_flag			 0
+eas_flag		 1
+ras_flag		 0
+mmas_flag		 0
+bwas_flag		 0
+acs_flag		 0
+
+allocate ants' memory ..
+
+ .. done
+Initialization took 0.2132840000 seconds
+best 78320875, iteration: 1, time 0.17
