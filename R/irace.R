@@ -216,11 +216,11 @@ getTrajectories <- function(newConfigurations, eliteConfigurations, experiments,
   newConfigurations <- newConfigurations[, !names(newConfigurations) %in% c(".ALIVE.", ".WEIGHT.", ".RANK.")]
   eliteConfigurations <- eliteConfigurations[, !names(eliteConfigurations) %in% c(".ALIVE.", ".WEIGHT.", ".RANK.")]
 
-  cat("Iteration: ", iteration, "\n")
-  cat("New configurations:\n")
-  print(newConfigurations)
-  cat("Elite configurations:\n")
-  print(eliteConfigurations)
+  #cat("Iteration: ", iteration, "\n")
+  #cat("New configurations:\n")
+  #print(newConfigurations)
+  #cat("Elite configurations:\n")
+  #print(eliteConfigurations)
 
   # for each parent, write the parent parameters, e (for elite), iteration, and then the child parameters, ne for new and iteration
   for (i in seq_along(eliteConfigurations[[".ID."]])) {
@@ -1323,7 +1323,7 @@ irace_run <- function(scenario, parameters)
 
     # bind with results from previous iterations
     currTrajectories <- getTrajectories(newConfigurations, eliteConfigurations, iraceResults$experiments, indexIteration)
-    print(currTrajectories)
+    # print(currTrajectories)
     trajectories <- rbind(trajectories, currTrajectories)
     rownames(trajectories) <- seq_len(nrow(trajectories))
                                              
