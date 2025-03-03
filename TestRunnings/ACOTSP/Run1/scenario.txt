@@ -9,7 +9,7 @@
 parameterFile = "../Base/parameters-acotsp.txt"
 
 ## Directory where the programs will be run.
-execDir = "./results"
+execDir = "./Results"
 
 ## Directory where tuning instances are located, either absolute path or
 ## relative to current directory.
